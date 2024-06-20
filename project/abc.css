@@ -1,0 +1,165 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      background: linear-gradient(to bottom, #6666ff 0%, #cc33ff 100%);
+    padding: 20px;
+    
+}
+
+.logo img {
+    height: 100px;
+    width: 130px;
+}
+
+.logo h1 {
+    margin-left: 10px;
+}
+
+.search-bar input {
+    float: right;
+    padding: 5px;
+    width: 200px;
+}
+
+nav {
+    background-color:  #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #2EB62C;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+{
+    /* Add styles for photo slider */
+}
+
+section.objective {
+    padding: 20px;
+     background: linear-gradient(to bottom, #6666ff 0%, #cc33ff 100%);
+   
+}
+section.sponsors {
+    padding: 20px;
+    background: linear-gradient(to bottom, #6666ff 0%, #cc33ff 100%);
+}
+
+.sponsor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.sponsor img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+.sponsor-details {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.sponsor-details h3 {
+    margin: 10px 0;
+}
+
+.sponsor-details p {
+    margin: 0;
+}
+section.persons {
+    padding: 20px;
+    background: linear-gradient(to bottom, #6666ff 0%, #cc33ff 100%);
+}
+
+.sponsor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.sponsor img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+.sponsor-details {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.sponsor-details h3 {
+    margin: 10px 0;
+}
+
+.sponsor-details p {
+    margin: 0;
+}
+
+
+footer {
+    padding: 20px;
+    background: linear-gradient(to bottom,#cc33ff  0%, #cc33ff 100%);
+   
+    color: #443b45;
+    text-align: center;
+}
+
+.social-media img {
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+}
+
+.location {
+    margin-top: 10px;
+}
+
+.location p {
+    font-size: 12px;
+}
+
+section, footer {
+    margin-bottom: 20px;
+}

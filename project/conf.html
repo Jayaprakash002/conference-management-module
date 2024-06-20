@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+	background-color:#4d8699;
+    }
+    
+
+    h1 {
+      text-align: center;
+      font-size: 80px;
+      color: hsl(79, 78%, 21%);
+    }
+
+    .conference-types {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .conference-types button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      background-color: #9a6725;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .conference-details {
+      display: none;
+    }
+
+    .conference-details h2 {
+      color: #9a6725;
+    }
+
+    .conference-details p {
+      margin-top: 10px;
+    }
+
+    .conference-details.active {
+      display: block;
+    }
+  </style>
+</head>
+<body ><div>
+  <input type="button" value="log out" onclick="history.back()">
+</div>
+  <h1>Conference Details</h1>
+
+  <div class="conference-types">
+    <button class="national"><a href="national.html">National Conference</a></button>
+    <button class="international"><a href="international.html">International Conference</a></button>
+  </div>
+  
+</body>
+</html>

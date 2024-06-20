@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conference Submission Page</title>
+  <link rel="stylesheet" type="text/css" href="submission.css">
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="abc.css">
+<header>
+  <div class="logo">
+      <img src="logo.jpg.jpg" alt="SRIJAN Conference Logo">
+      <h1 textcolor="#C5E8B7"><b><i></i></b></h1>
+  </div>
+  <div class="search-bar"><i>
+    search: </i>
+      <input type="text" placeholder="Search...">
+
+  </div>
+</header>
+    
+    <nav>
+        <ul>
+            <li><a href="abc.html">HOME</a></li>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="login.html">CONFERENCE</a></li>
+            <li><a href="submission.html">SUBMISSION</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contactdetails.html">CONTACT</a></li>
+        </ul>
+    </nav>
+  <div class="container">
+    <h1>Conference Paper Submission</h1><br><br>
+<br>
+A conference is generally understood as a meeting of several people to discuss a particular topic. It is often confused with a convention, colloquia or symposium. While a conference differs from the others in terms of size and purpose, the term can be used to cover the general concept. A convention is larger than a conference; it is a gathering of delegates representing several groups.
+    <form action="submission.php" method="post" enctype="multipart/form-data">
+      <label for="conference-name">Conference Name:</label>
+      <input type="text" id="conference-name" name="conference_name" required>
+
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="institution">Institution:</label>
+      <input type="text" id="institution" name="institution" required>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="author-email">Author Email:</label>
+      <input type="email" id="author-email" name="author_email" required>
+
+      <label for="author-phone">Author Phone Number:</label>
+      <input type="tel" id="author-phone" name="author_phone" required>
+
+      <label for="paper-title">Paper Title:</label>
+      <input type="text" id="paper-title" name="paper_title" required>
+
+      <label for="paper-type">Paper Type:</label>
+      <select id="paper-type" name="paper_type" required>
+        <option value="Research Paper">Research Paper</option>
+        <option value="Review Paper">Review Paper</option>
+        <option value="Case Study">Case Study</option>
+      </select>
+
+      <label for="attachment">Attachment:</label>
+      <input type="file" id="attachment" name="attachment" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>

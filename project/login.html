@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login Page</h1>
+    <form action="login.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+
+      <div class="buttons">
+        &nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="User Login"  name="login" class="user-login">
+        
+        </div>
+        <div>
+        <input type="button" value="Go back!" onclick="history.back()">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
